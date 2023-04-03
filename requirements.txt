@@ -1,0 +1,14 @@
+cupy-cuda11x
+matplotlib
+moviepy
+numpy
+opencv-python
+rawpy
+scipy
+scikit-video
+scikit-image
+torch
+torchvision
+tqdm
+tensorboard
+lpips
