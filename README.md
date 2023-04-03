@@ -5,7 +5,7 @@ The all-in-one GMFSS
 ---
 
 * I have optimized the training process and this time it will definitely not be always erratic like union.
-* We offer several models for inference or as pre-training models for fineturn.
+* We offer several models for inference or as pre-training models for finetune.
 
 ## Installation
 
