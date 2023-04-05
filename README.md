@@ -9,7 +9,7 @@ The All-In-One GMFSS: Dedicated for Anime Video Frame Interpolation
 
 ## Installation
 
-Our code is developed based on pytorch 1.13.1, CUDA 11.8 and python 3.9. Lower version pytorch should also work well.
+Our code is developed based on PyTorch 1.13.1, CUDA 11.8 and Python 3.9. Lower version pytorch should also work well.
 
 To install, run the following commands:
 
@@ -23,7 +23,7 @@ pip install -r requirements.txt
 
 If you want to validate the results then you need the [GMFSS model](https://drive.google.com/file/d/1BKz8UDAPEt713IVUSZSpzpfz_Fi2Tfd_/view?usp=sharing) or [union model](https://drive.google.com/file/d/1Mvd1GxkWf-DpfE9OPOtqRM9KNk20kLP3/view?usp=sharing)
 
-If you want to train your own model, you can use my [pre-trained model](https://drive.google.com/file/d/1y5Spgidahk12Q0MO-ZlSVLDMRQoj6FJI/view?usp=sharing) to skip the baseline training process
+If you want to train your own model, you can use our [pre-trained model](https://drive.google.com/file/d/1y5Spgidahk12Q0MO-ZlSVLDMRQoj6FJI/view?usp=sharing) to skip the baseline training process
 
 ## Run Video Frame Interpolation
 
