@@ -29,13 +29,13 @@ If you want to train your own model, you can use our [pre-trained model](https:/
 
 - Unzip the downloaded models and place the `train_log` folder in the root directory. Then run one of the following commands.
 
-- 1. Using gmfss mode
+1. Using gmfss mode
 
 ```
 python3 inference_video.py --img=demo/ --scale=1.0 --multi=2
 ```
 
-- 2. Using union mode
+2. Using union mode
 
 ```
 python3 inference_video.py --img=demo/ --scale=1.0 --multi=2 --union
@@ -45,19 +45,19 @@ python3 inference_video.py --img=demo/ --scale=1.0 --multi=2 --union
 
 - Unzip the pre-trained models and place the `train_log` folder as well as dataset in the root directory. Modifying `model/dataset.py` is necessary to fit other datasets. Run one of the following commands.
 
-- 1. Train gmfss with gan optimization
+1. Train gmfss with gan optimization
 
 ```sh
 python3 train_pg.py
 ```
 
-- 2. Train gmfss_union with gan optimization
+2. Train gmfss_union with gan optimization
 
 ```sh
 python3 train_upg.py
 ```
 
-- 3. Train pre-trained models
+3. Train pre-trained models
 
 ```sh
 python3 train_nb.py
