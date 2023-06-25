@@ -27,7 +27,7 @@ pip install -r requirements.txt
 
 If you want to validate the results then you need the [GMFSS model](https://drive.google.com/file/d/1BKz8UDAPEt713IVUSZSpzpfz_Fi2Tfd_/view?usp=sharing) or [union model](https://drive.google.com/file/d/1Mvd1GxkWf-DpfE9OPOtqRM9KNk20kLP3/view?usp=sharing)
 
-Or try this [new union model](https://drive.google.com/file/d/1_03uH6IvetezZIaYZzacxuXu-R4TklVc/view?usp=drive_link) using anime optical flow data fine-tune.
+Or try this [new union model](https://drive.google.com/file/d/1_03uH6IvetezZIaYZzacxuXu-R4TklVc/view?usp=drive_link) using anime optical flow data fine-tune
 
 If you want to train your own model, you can use our [pre-trained model](https://drive.google.com/file/d/1y5Spgidahk12Q0MO-ZlSVLDMRQoj6FJI/view?usp=sharing) to skip the baseline training process
 
