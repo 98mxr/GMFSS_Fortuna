@@ -23,6 +23,9 @@ cd GMFSS_Fortuna
 pip install -r requirements.txt
 ```
 
+If you are using CUDA 12.x, change cupy-cuda11x to cupy-cuda12x in requirements.txt
+Do not install cupy-cuda11x and cupy-cuda12x at the same time!
+
 ## Model Zoo
 
 If you want to validate the results then you need the [GMFSS model](https://drive.google.com/file/d/1BKz8UDAPEt713IVUSZSpzpfz_Fi2Tfd_/view?usp=sharing) or [union model](https://drive.google.com/file/d/1Mvd1GxkWf-DpfE9OPOtqRM9KNk20kLP3/view?usp=sharing)
