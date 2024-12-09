@@ -98,7 +98,8 @@ else:
     try:
         from model.GMFSS_infer_b import Model
     except:
-        print("Please download model from model list or Check if it is a base model")
+        print("Please download model from model list or Check if it is a base model")    
+        
 model = Model()
 if not hasattr(model, 'version'):
     model.version = 0
