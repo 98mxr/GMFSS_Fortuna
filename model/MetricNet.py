@@ -3,6 +3,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 
 from model.gmflow.geometry import forward_backward_consistency_check
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 
 backwarp_tenGrid = {}
@@ -12,7 +13,7 @@ def backwarp(tenIn, tenflow):
         tenHor = torch.linspace(start=-1.0, end=1.0, steps=tenflow.shape[3], dtype=tenflow.dtype, device=tenflow.device).view(1, 1, 1, -1).repeat(1, 1, tenflow.shape[2], 1)
         tenVer = torch.linspace(start=-1.0, end=1.0, steps=tenflow.shape[2], dtype=tenflow.dtype, device=tenflow.device).view(1, 1, -1, 1).repeat(1, 1, 1, tenflow.shape[3])
 
-        backwarp_tenGrid[str(tenflow.shape)] = torch.cat([tenHor, tenVer], 1).cuda()
+        backwarp_tenGrid[str(tenflow.shape)] = torch.cat([tenHor, tenVer], 1).to(device)
     # end
 
     tenflow = torch.cat([tenflow[:, 0:1, :, :] / ((tenIn.shape[3] - 1.0) / 2.0), tenflow[:, 1:2, :, :] / ((tenIn.shape[2] - 1.0) / 2.0)], 1)
