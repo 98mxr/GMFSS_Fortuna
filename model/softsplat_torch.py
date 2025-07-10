@@ -6,7 +6,7 @@ device = "cuda" if torch.cuda.is_available() else "cpu"
 grid_cache = {}
 batch_cache = {}
 torch.set_float32_matmul_precision("medium")
-torch.set_grad_enabled(False)
+# torch.set_grad_enabled(False)
 
 ##########################################################
 
