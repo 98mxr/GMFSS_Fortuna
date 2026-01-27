@@ -1,7 +1,7 @@
 cupy-cuda11x
 matplotlib
 moviepy
-numpy
+numpy==1.22.4
 opencv-python
 rawpy
 scipy
@@ -11,4 +11,5 @@ torch
 torchvision
 tqdm
 tensorboard
+
 lpips
